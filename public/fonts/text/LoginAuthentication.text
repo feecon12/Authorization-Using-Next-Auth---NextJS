@@ -1,0 +1,20 @@
+-Google Authentication login 
+1. go to https://console.cloud.google.com/apis/credentials
+    - create new credentials -> Client ID -> for Web Application
+    - Name - signup-auth
+    - Authorised Javascript origins : URI - http://localhost:3000
+    - Authorised redirect URI : URI - http://localhost:3000/api/auth/callback/google
+
+2. Create .env file in project directory 
+    - Enter 
+        GOOGLE_CLIENT_ID = {copy from above 1.}
+        GOOGLE_CLIENT_SECRET= {copy from above 1.}
+
+        NEXTAUTH_SECRET = 'ABCD'
+        NEXTAUTH_URL = 'http://localhost:3000/'
+
+3. install next-auth
+    npm install next-auth
+
+    Using GoogleProvider as login Authentication
+    
