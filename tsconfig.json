@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/projects/page.js", "src/app/api/auth/[...nextauth]/route.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/projects/page.js", "src/app/api/auth/[...nextauth]/route.jsx", "src/app/components/AuthProvider/AuthProvider.js", "src/app/components/Header.js", "src/app/components/Icons.js", "src/app/components/Login.js", "src/app/components/Signup.js", "src/app/components/Footer.js", "src/app/profiles/page.js", "src/app/about/page.js", "src/app/api/auth/[...nextauth]/route.js", "src/app/layout.js", "src/app/page.js", "src/app/pricing/page.js"],
   "exclude": ["node_modules"]
 }

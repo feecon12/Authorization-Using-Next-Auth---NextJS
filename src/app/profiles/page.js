@@ -22,7 +22,7 @@ const Profiles = () => {
         <div className='flex flex-col items-center justify-center'>
           <button className='mt-10 mb-10 bg-black text-white font-bold shadow-sm px-6 py-2 rounded-lg hover:bg-white hover:border hover:border-black hover:text-black'
             onClick={handleLogout}
-          >Logout
+          >Logout button
           </button>
         </div>
       </div>
