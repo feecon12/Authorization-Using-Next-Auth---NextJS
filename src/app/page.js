@@ -6,9 +6,9 @@ import wall from '../../public/images/wallpapers/wall3.png'
 const page = () => {
   return (
     <>
-      <div>
+      <main>
         <img src={wall} alt='wallpaper' className='w-full min-h-screen'/>
-      </div>    
+      </main>    
     </>
   )
 }

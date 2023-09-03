@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 // import Login from './Login';
 // import Signup from './Signup';
-// import DropMenu from './DropMenu';
+import DropMenu from './DropMenu';
 // import { motion } from 'framer-motion';
 import Link from 'next/link'
 
@@ -22,7 +22,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className='py-6 px-32 border flex items-center justify-between shadow-sm sm:px-4'>
+            <nav className='py-6 px-32 flex items-center justify-between shadow-sm sm:px-4'>
                 <div className=''>
                     <button className='flex flex-col' onClick={handleHamburger}>
                         <span className={`${isOpen ? 'h-1 w-7 bg-light/70 mb-1 rotate-45 translate-y-2 transition-all duration-300' : 'h-1 w-7 bg-light mb-1 transition-all duration-300'}`}></span>
@@ -39,11 +39,11 @@ const Header = () => {
                 </div>
             </nav>
     
-            {/* <div>
+            <div>
                 {
                     isOpen? <DropMenu/>: null
                 }
-            </div> */}
+            </div>
 
             {/* <div>
                 {activeButton === 'login' &&
